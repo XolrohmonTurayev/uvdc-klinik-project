@@ -1,0 +1,20 @@
+.burger-menu-active {
+    transform: translateX(0);
+    transition: 0.4s;
+}
+
+.burger-menu-inactive {
+    transform: translateX(-100%);
+    transition: 0.4s;
+}
+
+.burger-menu-wrapper .burger-menu {
+    max-width: 300px;
+    width: 100%;
+}
+
+.burger-menu-bg {
+    flex: 1;
+    height: 100%;
+    backdrop-filter: blur(10px) !important;
+}

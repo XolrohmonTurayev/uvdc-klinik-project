@@ -1,0 +1,26 @@
+# Node.js kutubxonalar
+node_modules/
+
+# Muhim fayl
+.env
+
+# Log fayllar
+*.log
+
+# O'rnatilgan dastur fayllari
+*.exe
+*.dll
+
+# MacOS maxsus fayllari
+.DS_Store
+
+# Windows maxsus fayllari
+Thumbs.db
+
+# Katta fayllar
+*.zip
+*.tar
+*.gz
+
+# Istisno qilish
+!important_file.txt

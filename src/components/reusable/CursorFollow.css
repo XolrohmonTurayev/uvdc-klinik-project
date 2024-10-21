@@ -1,0 +1,30 @@
+.mouseCursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  transform: translateZ(0);
+  text-align: center;
+}
+.cursor-outer {
+  width: 35px;
+  height: 35px;
+  background: #3F39CF;
+  box-sizing: border-box;
+  z-index: 10000000;
+  opacity: 0.2;
+  visibility: visible;
+  transform: translate(-50%,-50%);
+}
+
+.cursor-inner {
+  width: 8px;
+  transform: translate(-50%,-50%);
+  visibility: visible;
+  height: 8px;
+  z-index: 10000001;
+  background-color: #3F39CF;
+}
