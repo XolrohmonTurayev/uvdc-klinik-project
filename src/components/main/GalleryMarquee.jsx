@@ -2,7 +2,6 @@ import React from "react";
 import SubTitle from "../SubTitle";
 import { useTranslation } from "react-i18next";
 import Counters from "./Counters";
-// import anyImg from "../../../src/assets/galleryPage"
 
 const GalleryMarquee = () => {
   const { t } = useTranslation();
