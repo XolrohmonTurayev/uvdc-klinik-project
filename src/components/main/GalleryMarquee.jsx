@@ -2,6 +2,7 @@ import React from "react";
 import SubTitle from "../SubTitle";
 import { useTranslation } from "react-i18next";
 import Counters from "./Counters";
+// import anyImg from "../../../public/"
 
 const GalleryMarquee = () => {
   const { t } = useTranslation();
@@ -16,7 +17,7 @@ const GalleryMarquee = () => {
                 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
               ].map((item, idx) => (
                 <img
-                  src={`../../galleryPage/galleryImg${item}.png`}
+                  src={`../../../public/galleryPage/galleryImg${item}.png`}
                   alt={idx}
                   className="lg:w-[404px] w-[304px] bg-[#EBEBFA] rounded-md lg:rounded-xl lg:h-[304px] h-[204px] object-cover inline-block"
                 />
@@ -29,7 +30,7 @@ const GalleryMarquee = () => {
                 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
               ].map((item, idx) => (
                 <img
-                  src={`../../galleryPage/galleryImg${item + 1}.png`}
+                  src={`../../../public/galleryPage/galleryImg${item + 1}.png`}
                   alt={idx}
                   className="lg:w-[404px] bg-[#EBEBFA] w-[304px] rounded-md lg:rounded-xl lg:h-[304px] h-[204px] object-cover inline-block"
                 />

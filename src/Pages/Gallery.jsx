@@ -28,12 +28,12 @@ const Gallery = () => {
           {Array(27)
             .fill("")
             .map((_, id) => {
-              let imgData = `../../galleryPage/galleryImg${id + 1}.png`;
+              let imgData = `../../../public/galleryPage/galleryImg${id + 1}.png`;
               return (
                 <div>
                   <div className="relative group">
                     <img
-                      src={`../../galleryPage/galleryImg${id + 1}.png`}
+                      src={`../../../public/galleryPage/galleryImg${id + 1}.png`}
                       alt="Our Gallery"
                       className="w-full bg-[#EBEBFA] aspect-[4/3] object-cover sm:max-w-[400px] max-h-[300px] rounded-xl"
                     />
