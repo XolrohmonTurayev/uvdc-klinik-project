@@ -32,7 +32,7 @@ const News = () => {
                 controls
               >
                 <source
-                  src={`../../videos/img${idx + 1}.mp4 `}
+                  src={`/videos/img${idx + 1}.mp4 `}
                   type="video/mp4"
                 />
                 Ваш браузер не поддерживает видео.

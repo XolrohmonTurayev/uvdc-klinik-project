@@ -42,9 +42,9 @@ const Servise = () => {
                 <div className=" group flex flex-col  rounded-[12px] overflow-hidden max-w-[385px] shadow-md">
                   <div className="flex lg:pt-[70px] pt-[30px] lg:pb-[50px] pb-[20px] justify-center bg-[#3F39CF1A]  ">
                     <img
-                      src={`../../servicesIcons/${item.icon}.png`}
+                      src={`/servicesIcons/${item.icon}.png`}
                       className="object-cover group-hover:scale-110  all  duration-[.3s]  lg:w-[100px] w-[55px] lg:h-[100px] h-[55px] "
-                      alt={`../..//servicesIcons/${item.icon}.png`}
+                      alt={`/servicesIcons/${item.icon}.png`}
                     />
                   </div>
                   <div className="w-full   h-full  relative  bg-white lg:p-[20px] p-[10px] ">

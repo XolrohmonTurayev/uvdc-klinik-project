@@ -1,6 +1,5 @@
 // Loader.js
 import React, { useContext, useEffect, useState } from "react";
-import { ModalUser } from "../../context/ModalContext";
 
 const Loader = () => {
   const [loader, setLoader] = useState(true);

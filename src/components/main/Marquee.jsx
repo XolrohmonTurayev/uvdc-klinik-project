@@ -16,14 +16,14 @@ const Marquee = () => {
           <div className="partners__marquee__content support partner">
             {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((item, idx) => (
               <img
-                src={`../../sertificates/sert${item}.png`}
+                src={`/sertificates/sert${item}.png`}
                 alt={idx}
                 className="lg:w-[404px] w-[304px] bg-[#EBEBFA] rounded-md lg:rounded-xl lg:h-[304px] h-[204px] object-cover inline-block"
               />
             ))}
             {[10, 11, 12, 13, 14, 15, 16, 17, 18].map((item, idx) => (
               <img
-                src={`../../sertificates/sert${item}.png`}
+                src={`/sertificates/sert${item}.png`}
                 alt={idx}
                 className="lg:w-[404px] bg-[#EBEBFA] w-[304px] rounded-md lg:rounded-xl lg:h-[304px] h-[204px] object-cover inline-block"
               />

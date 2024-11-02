@@ -8,9 +8,9 @@ const DoctorCard = ({ id, img, name, job }) => {
     <div className="w-full mx-auto hover:shadow-card transition-all rounded-[12px] group overflow-hidden max-w-[385px] shadow-md">
       <div className="flex justify-center relative group bg-[#3F39CF1A]">
         <img
-          src={`../../../doctors/doctor${img}.png`}
+          src={`/doctors/doctor${img}.png`}
           className="object-cover bg-[#EBEBFA] aspect-[1/2] w-full h-full lg:max-h-[400px] max-h-[300px]"
-          alt={`../../../doctors/doctor${img}.png`}
+          alt={`/doctors/doctor${img}.png`}
         />
       </div>
       <div className="w-full bg-white ">

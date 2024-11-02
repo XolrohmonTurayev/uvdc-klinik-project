@@ -7,7 +7,7 @@ const TestimonialCard = ({ item }) => {
   return (
     <div className=" h-full border-t-4  rounded-md  border-main  flex flex-col justify-center items-center  md:pt-[90px] pt-[50px] px-[10px]  lg:px-[40px] relative  w-full  shadow-lg">
       <img
-        src={`../../../testimonials/test${item}.png`}
+        src={`/testimonials/test${item}.png`}
         className="absolute  h-[90px] w-[90px] lg:h-[110px]  lg:w-[110px] 2xl:w-[150px] 2xl:h-[150px] rounded-full border-[3px] lg:border-[6px] lg:top-[-75px] top-[-45px] z-[100] border-main  "
         alt=""
       />

@@ -31,7 +31,7 @@ const DynamicService = () => {
 
         <div className="mt-4 ">
           <img
-            src={`../../../serviceImg/${serviceData?.icon}/main.jpg`}
+            src={`/serviceImg/${serviceData?.icon}/main.jpg`}
             className="object-cover max-w-[1536px] w-full max-h-[600px] lg:rounded-[22px] rounded-[12px] mx-auto "
             alt=""
           />
@@ -82,7 +82,7 @@ const DynamicService = () => {
             {[1, 2, 3, 4].map((item) => (
               <img
                 className="max-w-[400px] w-full lg:rounded-xl rounded-md h-full object-cover"
-                src={`../../../serviceImg/${serviceData?.icon}/img${item}.jpg`}
+                src={`/serviceImg/${serviceData?.icon}/img${item}.jpg`}
                 alt=""
               />
             ))}

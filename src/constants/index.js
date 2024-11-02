@@ -44,22 +44,22 @@ export const linksPage = [
 
 export const counters = [
   {
-    img: "../../Main/icons/count1.png",
+    img: "/Main/icons/count1.png",
     count: 50,
     counterNumber: 1,
   },
   {
-    img: "../../Main/icons/count2.png",
+    img: "/Main/icons/count2.png",
     count: 500,
     counterNumber: 2,
   },
   {
-    img: "../../Main/icons/count3.png",
+    img: "/Main/icons/count3.png",
     count: 30,
     counterNumber: 3,
   },
   {
-    img: "../../Main/icons/count4.png",
+    img: "/Main/icons/count4.png",
     count: 220,
     counterNumber: 4,
   },
@@ -67,22 +67,16 @@ export const counters = [
 
 export const afzalliklar = [
   {
-    img: "../../pagesImages/about/afzallik1.png",
+    img: "/pagesImages/about/afzallik1.png",
     afzallikNumber: 1,
   },
   {
-    img: "../../pagesImages/about/afzallik2.png",
+    img: "/pagesImages/about/afzallik2.png",
     afzallikNumber: 2,
   },
   {
-    img: "../../pagesImages/about/afzallik3.png",
+    img: "/pagesImages/about/afzallik3.png",
     afzallikNumber: 3,
-  },
-];
-
-export const testimonials = [
-  {
-    img: "",
   },
 ];
 
