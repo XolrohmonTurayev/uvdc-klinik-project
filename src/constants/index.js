@@ -3,6 +3,34 @@ import advImg2 from "../assets/icons/advImg2.svg";
 import advImg3 from "../assets/icons/advImg3.svg";
 import uvdcSEOimg from "../assets/Doctors/uvdcSeoImg.png";
 
+import galleryImg1 from "../../public/galleryPage/galleryImg1.png";
+import galleryImg2 from "../../public/galleryPage/galleryImg2.png";
+import galleryImg3 from "../../public/galleryPage/galleryImg3.png";
+import galleryImg4 from "../../public/galleryPage/galleryImg4.png";
+import galleryImg5 from "../../public/galleryPage/galleryImg5.png";
+import galleryImg6 from "../../public/galleryPage/galleryImg6.png";
+import galleryImg7 from "../../public/galleryPage/galleryImg7.png";
+import galleryImg8 from "../../public/galleryPage/galleryImg8.png";
+import galleryImg9 from "../../public/galleryPage/galleryImg9.png";
+import galleryImg10 from "../../public/galleryPage/galleryImg10.png";
+import galleryImg11 from "../../public/galleryPage/galleryImg11.png";
+import galleryImg12 from "../../public/galleryPage/galleryImg12.png";
+import galleryImg13 from "../../public/galleryPage/galleryImg13.png";
+import galleryImg14 from "../../public/galleryPage/galleryImg14.png";
+import galleryImg15 from "../../public/galleryPage/galleryImg15.png";
+import galleryImg16 from "../../public/galleryPage/galleryImg16.png";
+import galleryImg17 from "../../public/galleryPage/galleryImg17.png";
+import galleryImg18 from "../../public/galleryPage/galleryImg18.png";
+import galleryImg19 from "../../public/galleryPage/galleryImg19.png";
+import galleryImg20 from "../../public/galleryPage/galleryImg20.png";
+import galleryImg21 from "../../public/galleryPage/galleryImg21.png";
+import galleryImg22 from "../../public/galleryPage/galleryImg22.png";
+import galleryImg23 from "../../public/galleryPage/galleryImg23.png";
+import galleryImg24 from "../../public/galleryPage/galleryImg24.png";
+import galleryImg25 from "../../public/galleryPage/galleryImg25.png";
+import galleryImg26 from "../../public/galleryPage/galleryImg26.png";
+import galleryImg27 from "../../public/galleryPage/galleryImg27.png";
+
 export const linksPage = [
   {
     id: 0,
@@ -217,4 +245,115 @@ export const seoData = [
     skill_1: "seo.seo2.skill_1",
     skill_2: "seo.seo2.skill_2",
   }
+];
+
+export const galleryPageImgData = [
+  {
+    id: 0,
+    img: galleryImg1,
+  },
+  {
+    id: 1,
+    img: galleryImg2,
+  },
+  {
+    id: 2,
+    img: galleryImg3,
+  },
+  {
+    id: 3,
+    img: galleryImg4,
+  },
+  {
+    id: 4,
+    img: galleryImg5,
+  },
+  {
+    id: 5,
+    img: galleryImg6,
+  },
+  {
+    id: 6,
+    img: galleryImg7,
+  },
+  {
+    id: 7,
+    img: galleryImg8,
+  },
+  {
+    id: 8,
+    img: galleryImg9,
+  },
+  {
+    id: 9,
+    img: galleryImg10,
+  },
+  {
+    id: 10,
+    img: galleryImg11,
+  },
+  {
+    id: 11,
+    img: galleryImg12,
+  },
+  {
+    id: 12,
+    img: galleryImg13,
+  },
+  {
+    id: 13,
+    img: galleryImg14,
+  },
+  {
+    id: 14,
+    img: galleryImg15,
+  },
+  {
+    id: 15,
+    img: galleryImg16,
+  },
+  {
+    id: 16,
+    img: galleryImg17,
+  },
+  {
+    id: 17,
+    img: galleryImg18,
+  },
+  {
+    id: 18,
+    img: galleryImg19,
+  },
+  {
+    id: 19,
+    img: galleryImg20,
+  },
+  {
+    id: 20,
+    img: galleryImg21,
+  },
+  {
+    id: 21,
+    img: galleryImg22,
+  },
+  {
+    id: 22,
+    img: galleryImg23,
+  },
+  {
+    id: 23,
+    img: galleryImg24,
+  },
+  {
+    id: 24,
+    img: galleryImg25,
+  },
+  {
+    id: 25,
+    img: galleryImg26,
+  },
+  {
+    id: 26,
+    img: galleryImg27,
+  },
 ];
