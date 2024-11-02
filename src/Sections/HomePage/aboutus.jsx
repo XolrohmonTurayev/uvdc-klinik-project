@@ -3,9 +3,9 @@ import TitleComponent from "../../components/Title";
 import SubTitle from "../../components/SubTitle";
 import DescriptionComponent from "../../components/Description";
 
-import bannerImg1 from "../../../src/assets/galleryPage/galleryImg14.png";
-import bannerImg2 from "../../../src/assets/galleryPage/galleryImg2.png";
-import bannerImg3 from "../../../src/assets/galleryPage/galleryImg9.png";
+import bannerImg1 from "/galleryPage/galleryImg14.png";
+import bannerImg2 from "/galleryPage/galleryImg2.png";
+import bannerImg3 from "/galleryPage/galleryImg9.png";
 import bannerImg1before from "/aboutSectionDots.png";
 import { useTranslation } from "react-i18next";
 

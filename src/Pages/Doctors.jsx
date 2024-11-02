@@ -7,9 +7,8 @@ import { useTranslation } from "react-i18next";
 import Marquee from "../components/main/Marquee";
 import Loader from "../components/reusable/Loader";
 import { doctorNames, seoData } from "../constants";
-
-import uvdcSEOimg from "../assets/Doctors/uvdcSeoImg.png";
 import Seo from "../components/Seo";
+
 
 const Doctors = () => {
 
