@@ -44,22 +44,22 @@ export const linksPage = [
 
 export const counters = [
   {
-    img: "/Main/icons/count1.png",
+    img: "Main/icons/count1.png",
     count: 50,
     counterNumber: 1,
   },
   {
-    img: "/Main/icons/count2.png",
+    img: "Main/icons/count2.png",
     count: 500,
     counterNumber: 2,
   },
   {
-    img: "/Main/icons/count3.png",
+    img: "Main/icons/count3.png",
     count: 30,
     counterNumber: 3,
   },
   {
-    img: "/Main/icons/count4.png",
+    img: "Main/icons/count4.png",
     count: 220,
     counterNumber: 4,
   },

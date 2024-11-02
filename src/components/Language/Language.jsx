@@ -33,7 +33,7 @@ const Language = () => {
       <div className="relative flex flex-col px-4 py-2 dropdown">
         <div onClick={toggleDropdown} className="flex gap-2 cursor-pointer dropdown">
           <img
-            src={`/Main/langs/${activeLang}.svg`}
+            src={`Main/langs/${activeLang}.svg`}
             className=" w-[20px] rounded-[50%] object-cover h-[20px] "
             alt=""
           />
