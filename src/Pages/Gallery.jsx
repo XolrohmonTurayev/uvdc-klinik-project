@@ -7,6 +7,7 @@ import Marquee from "../components/main/Marquee";
 import TestimonialsSection from "../Sections/TestimonialsSection";
 import Loader from "../components/reusable/Loader";
 import image from "../../public/galleryPage/galleryImg1.png"
+import { galleryPageImgData } from "../constants";
 
 const Gallery = () => {
 
@@ -18,7 +19,7 @@ const Gallery = () => {
 
   return (
     <section className="pt-24 sm:mt-[120px] mb-6  sm:pt-5">
-      <Loader/>
+      <Loader />
       <div className="container px-[10px]">
         <TitleComponent title={"Foto Galereya"} classList={"mb-4"} />
         <DescriptionComponent
@@ -26,23 +27,18 @@ const Gallery = () => {
           description={t("pagesData.doctorsPage.description")}
         />
         <div className="flex flex-wrap items-center justify-center gap-3 mt-4 lg:mb-32 lg:gap-7">
-          {Array(27)
-            .fill("")
-            .map((_, id) => {
-              let imgData = `/galleryPage/galleryImg${id + 1}.png`;
-              return (
-                <div>
-                  <div className="relative group">
-                    <img
-                      src={`../../public/galleryPage/galleryImg${id + 1}.png`}
-                      alt="Our Gallery"
-                      className="w-full bg-[#EBEBFA] aspect-[4/3] object-cover sm:max-w-[400px] max-h-[300px] rounded-xl"
-                    />
-                    <SetImg img={imgData} />
-                  </div>
-                </div>
-              );
-            })}
+          {galleryPageImgData.map((el) => (
+            <div key={el.id}>
+              <div className="relative group">
+                <img
+                  src={el.img}
+                  alt="Our Gallery"
+                  className="w-full bg-[#EBEBFA] aspect-[4/3] object-cover sm:max-w-[400px] max-h-[300px] rounded-xl"
+                />
+                <SetImg img={imgData} />
+              </div>
+            </div>
+          ))}
         </div>
       </div>
       <Marquee />
