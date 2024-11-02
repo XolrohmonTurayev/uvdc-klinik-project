@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
 import "./index.css";
 import Routers from "./Routers/Routers.jsx";
 import "/src/components/Language/i18n";
