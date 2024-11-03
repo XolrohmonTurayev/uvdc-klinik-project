@@ -2,7 +2,6 @@ import advImg1 from "../assets/icons/advImg1.svg";
 import advImg2 from "../assets/icons/advImg2.svg";
 import advImg3 from "../assets/icons/advImg3.svg";
 import uvdcSEOimg from "../assets/Doctors/uvdcSeoImg.png";
-import image from "../assets/galleryPage"
 
 import galleryImg1 from "../assets/galleryPage/galleryImg1.png";
 import galleryImg2 from "../assets/galleryPage/galleryImg2.png";

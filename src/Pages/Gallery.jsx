@@ -6,7 +6,6 @@ import SetImg from "../components/Modal/SetImg";
 import Marquee from "../components/main/Marquee";
 import TestimonialsSection from "../Sections/TestimonialsSection";
 import Loader from "../components/reusable/Loader";
-import image from "../../public/galleryPage/galleryImg1.png"
 import { galleryPageImgData } from "../constants";
 
 const Gallery = () => {
@@ -35,7 +34,7 @@ const Gallery = () => {
                   alt="Our Gallery"
                   className="w-full bg-[#EBEBFA] aspect-[4/3] object-cover sm:max-w-[400px] max-h-[300px] rounded-xl"
                 />
-                <SetImg img={imgData} />
+                <SetImg img={el.img} />
               </div>
             </div>
           ))}
