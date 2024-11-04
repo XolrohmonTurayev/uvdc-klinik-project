@@ -30,6 +30,26 @@ import galleryImg24 from "../assets/galleryPage/galleryImg24.png";
 import galleryImg25 from "../assets/galleryPage/galleryImg25.png";
 import galleryImg26 from "../assets/galleryPage/galleryImg26.png";
 import galleryImg27 from "../assets/galleryPage/galleryImg27.png";
+// import img from "../assets/"
+import marqueeSertImg1 from "../assets/sertificates/sert0.png";
+import marqueeSertImg2 from "../assets/sertificates/sert1.png";
+import marqueeSertImg3 from "../assets/sertificates/sert2.png";
+import marqueeSertImg4 from "../assets/sertificates/sert3.png";
+import marqueeSertImg5 from "../assets/sertificates/sert4.png";
+import marqueeSertImg6 from "../assets/sertificates/sert5.png";
+import marqueeSertImg7 from "../assets/sertificates/sert6.png";
+import marqueeSertImg8 from "../assets/sertificates/sert7.png";
+import marqueeSertImg9 from "../assets/sertificates/sert8.png";
+import marqueeSertImg10 from "../assets/sertificates/sert9.png";
+import marqueeSertImg11 from "../assets/sertificates/sert10.png";
+import marqueeSertImg12 from "../assets/sertificates/sert11.png";
+import marqueeSertImg13 from "../assets/sertificates/sert12.png";
+import marqueeSertImg14 from "../assets/sertificates/sert13.png";
+import marqueeSertImg15 from "../assets/sertificates/sert14.png";
+import marqueeSertImg16 from "../assets/sertificates/sert15.png";
+import marqueeSertImg17 from "../assets/sertificates/sert16.png";
+import marqueeSertImg18 from "../assets/sertificates/sert17.png";
+import marqueeSertImg19 from "../assets/sertificates/sert18.png";
 
 export const linksPage = [
   {
@@ -72,22 +92,22 @@ export const linksPage = [
 
 export const counters = [
   {
-    img: "Main/icons/count1.png",
+    img: "/Main/icons/count1.png",
     count: 50,
     counterNumber: 1,
   },
   {
-    img: "Main/icons/count2.png",
+    img: "/Main/icons/count2.png",
     count: 500,
     counterNumber: 2,
   },
   {
-    img: "Main/icons/count3.png",
+    img: "/Main/icons/count3.png",
     count: 30,
     counterNumber: 3,
   },
   {
-    img: "Main/icons/count4.png",
+    img: "/Main/icons/count4.png",
     count: 220,
     counterNumber: 4,
   },
@@ -355,5 +375,88 @@ export const galleryPageImgData = [
   {
     id: 26,
     img: galleryImg27,
+  },
+];
+
+export const marqueeSertData = [
+  {
+    id: 0,
+    img: marqueeSertImg1,
+  },
+  {
+    id: 1,
+    img: marqueeSertImg2,
+  },
+  {
+    id: 2,
+    img: marqueeSertImg3,
+  },
+  {
+    id: 3,
+    img: marqueeSertImg4,
+  },
+  {
+    id: 4,
+    img: marqueeSertImg5,
+  },
+  {
+    id: 5,
+    img: marqueeSertImg6,
+  },
+  {
+    id: 6,
+    img: marqueeSertImg7,
+  },
+  {
+    id: 7,
+    img: marqueeSertImg8,
+  },
+  {
+    id: 8,
+    img: marqueeSertImg9,
+  },
+  {
+    id: 9,
+    img: marqueeSertImg10,
+  },
+  {
+    id: 10,
+    img: marqueeSertImg11,
+  },
+  {
+    id: 11,
+    img: marqueeSertImg12,
+  },
+  {
+    id: 12,
+    img: marqueeSertImg13,
+  },
+  {
+    id: 13,
+    img: marqueeSertImg14,
+  },
+  {
+    id: 14,
+    img: marqueeSertImg15,
+  },
+  {
+    id: 15,
+    img: marqueeSertImg16,
+  },
+  {
+    id: 16,
+    img: marqueeSertImg17,
+  },
+  {
+    id: 17,
+    img: marqueeSertImg18,
+  },
+  {
+    id: 18,
+    img: marqueeSertImg18,
+  },
+  {
+    id: 19,
+    img: marqueeSertImg19,
   },
 ];
