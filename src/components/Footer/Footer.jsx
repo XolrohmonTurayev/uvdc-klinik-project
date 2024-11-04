@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="md:max-w-[460px] flex justify-center flex-col">
             <div className="flex flex-col items-center justify-center gap-3 text-center md:flex-row lg:gap-6 md:w-max">
               <div className="flex items-center justify-center w-14 h-14 md:w-20 md:h-20 p-[4px] bg-white rounded-full">
-                <Link to={"/"}>
+                <Link to={"/"} className="block w-14 h-14">
                   <img
                     src={logo}
                     alt=""

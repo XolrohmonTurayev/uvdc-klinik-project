@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import LinksPage from "./LinksPage";
 import Language from "../Language/Language";
-import DefaultBtn from "../Buttons/DefaultBtn";
 import logo from "/logo.png";
 import { Link } from "react-router-dom";
 import { linksPage } from "../../constants";
@@ -15,9 +14,7 @@ const Header = () => {
 
   const [menuOpen, setMenuOpen] = useState(false);
 
-  function menuHandle() {
-    setMenuOpen(!menuOpen);
-  }
+  function menuHandle() {setMenuOpen(!menuOpen);}
 
   return (
     <header className="fixed top-0 z-[100] w-full lg:h-[100px] h-[80px] shadow-md">
