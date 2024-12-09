@@ -15,7 +15,7 @@ const News = () => {
 
   return (
     <section className="pt-24 sm:mt-[120px] mb-6  sm:pt-5">
-      <Loader/>
+      <Loader />
       <div className="container px-[10px] ">
         <TitleComponent title={t("headersLinks.news")} />
         <DescriptionComponent
@@ -38,9 +38,17 @@ const News = () => {
                 Ваш браузер не поддерживает видео.
               </video>
             ))}
+          <iframe
+            className="rounded-xl w-full lg:w-[300px] h-[533.33px]"
+            height="200px"
+            src="https://www.youtube.com/embed/7_3oKzsZJy0"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
-      <Marquee/>
+      <Marquee />
       <ContactPage />
     </section>
   );

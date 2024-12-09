@@ -35,7 +35,7 @@ const DynamicService = () => {
             className="object-cover max-w-[1536px] w-full max-h-[600px] lg:rounded-[22px] rounded-[12px] mx-auto "
             alt=""
           />
-          <div className="lg:rounded-full rounded-full   flex-wrap  flex items-center justify-center gap-x-[40px] lg:justify-between py-[10px]   bg-white mx-auto -translate-y-[50%] shadow-md lg:py-4 md:ps-[40px] xl:ps-[80px]  px-[20px]  xl:w-[90%] w-[98%] lg:w-[95%]">
+          <div className="lg:rounded-full rounded-full flex-wrap  flex items-center justify-center gap-x-[40px] lg:justify-between py-[10px]   bg-white mx-auto -translate-y-[50%] shadow-md lg:py-4 md:ps-[40px] xl:ps-[80px]  px-[20px]  xl:w-[90%] w-[98%] lg:w-[95%]">
             <div>
               <DescriptionComponent
                 classList={"!text-[14px]   md:!text-[18px] text-start"}
