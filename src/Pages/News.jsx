@@ -41,7 +41,7 @@ const News = () => {
           <iframe
             className="rounded-xl w-full lg:w-[300px] h-[533.33px]"
             height="200px"
-            src="https://www.youtube.com/embed/7_3oKzsZJy0"
+            src="https://www.youtube.com/embed/7_3oKzsZJy0?controls=0&modestbranding=1&rel=0&showinfo=0"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
