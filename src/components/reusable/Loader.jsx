@@ -1,5 +1,5 @@
 // Loader.js
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Loader = () => {
   const [loader, setLoader] = useState(true);
@@ -7,7 +7,7 @@ const Loader = () => {
     setLoader(true);
     setTimeout(() => {
       setLoader(false);
-    }, 2000);
+    }, 6000);
   };
   useEffect(() => {
     changeLoader();
